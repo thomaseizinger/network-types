@@ -24,4 +24,4 @@ jobs:
         env:
           RUST_BACKTRACE: full
         run: |
-          cargo test --verbose
+          cargo test --verbose --all-features
